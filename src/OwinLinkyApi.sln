@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinLinkyApi.SelfHost", "OwinLinkyApi\OwinLinkyApi.SelfHost.csproj", "{33318CA6-4656-4372-AC9D-44A085003FFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinLinkyApi.WebHost", "OwinLinkyApi.WebHost\OwinLinkyApi.WebHost.csproj", "{17C9F1EB-43BF-49AF-A26D-1EDB5A1FA11E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{33318CA6-4656-4372-AC9D-44A085003FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33318CA6-4656-4372-AC9D-44A085003FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33318CA6-4656-4372-AC9D-44A085003FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C9F1EB-43BF-49AF-A26D-1EDB5A1FA11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C9F1EB-43BF-49AF-A26D-1EDB5A1FA11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C9F1EB-43BF-49AF-A26D-1EDB5A1FA11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C9F1EB-43BF-49AF-A26D-1EDB5A1FA11E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
