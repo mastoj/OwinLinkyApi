@@ -18,6 +18,7 @@ namespace OwinLinkyApi
         {
             HttpConfiguration configuration = new HttpConfiguration();
             configuration.MapHttpAttributeRoutes();
+            Linky.LinkyConfiguration.Configure(configuration);
             app.UseWebApi(configuration);
 
             app.Use(new Func<AppFunc, AppFunc>(next => async env =>
